@@ -22,11 +22,10 @@ Then you need to update these file:
 nuget_user: "your_username"
 nuget_author: "your_author_name"
 nuget_package_count: 5
-nuget_show_profile_link: true
 ```
 
 The author is used for the search. This means that the author should equal the
-author you put in your NuGet spec. Search by username is not possible.
+author you put in your NuGet spec. Search by user is not possible.
 
 ### sass/partials/_sidebar.scss
 
