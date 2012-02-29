@@ -1,6 +1,6 @@
 # Octopress NuGet Aside
 
-This is a simple aside for <a href="http://www.octopress.org">Octopress</a> that uses the Nuget Gallery API to dislay the most downloaded NuGet packages you published. The loading time isn't that good currently because the NuGet Search API has no direct support for search by owner and I have to reroute the request using the [Google Feed API](https://developers.google.com/feed/v1/) because they currently don't support JSON.
+This is a simple aside for <a href="http://www.octopress.org">Octopress</a> that uses the Nuget Gallery API to dislay the most downloaded NuGet packages where you are an author. The loading time isn't that great currently because the NuGet Search API doesn't support JSON (JSONP) and returns all versions of every package. I also have to reroute the request using the [Google Feed API](https://developers.google.com/feed/v1/).
 
 ## Setup
 
@@ -30,7 +30,7 @@ author you put in your NuGet spec. Search by username is not possible.
 
 ### sass/partials/_sidebar.scss
 
-* Add *import "sidebar/nuget";* at the end of the file
+* Add *'@import "sidebar/nuget";'* at the end of the file
 
 ## Preview
 
