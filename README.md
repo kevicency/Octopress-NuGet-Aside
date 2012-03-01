@@ -8,6 +8,8 @@ First of all you need to these copy files:
 
 * *nuget.html* into *source/_includes/custom/asides/*
 * *nuget.js* into *source/javascripts/*
+* *nuget_32_gray.png* into *source/images/*
+* *nuget_32_gray_fail.png* into *source/images/*
 * *_nuget.scss* into *sass/partials/sidebar/*
 
 Then you need to update these file:
